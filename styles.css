@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.pexels.com/photos/21787/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover; 
+  background-position: center; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+}
+
+button {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+.completed {
+  text-decoration: line-through;
+}
+
+
